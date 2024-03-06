@@ -7,7 +7,7 @@ while True:
     ismlar.append(ism)
     takrorlash = input("Yana ism qo'shasizmi? (ha/yo'q)")
     n += 1
-    if takrorlash != 'ha':
+    if takrorlash == "yo'q":
         break
 
 print("Do'stlaringiz ro'yxati:")
