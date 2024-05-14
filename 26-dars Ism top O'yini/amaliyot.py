@@ -2,10 +2,10 @@ import random
 from names import ismlar
 
 def get_word():
-    word = random.choice(ismlar)
-    while "-" in word or ' ' in word:
-        word = random.choice(ismlar)    
-    return word.upper()
+    name = random.choice(ismlar)
+    while "-" in name or ' ' in name:
+        name = random.choice(ismlar)    
+    return name.upper()
 
 def display(user_letters,word):
     display_letter=""
